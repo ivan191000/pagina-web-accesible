@@ -1,7 +1,6 @@
-
 body {
     font-family: 'Segoe UI';
-    background-color: #1a1a1a;
+    background-color: #0A0A0A;
     color: #f0f0f0;
     margin: 0;
     padding-top: 140px; 
@@ -17,6 +16,12 @@ header.principal {
     padding: 15px 0;
     box-shadow: 0 4px 10px rgba(0,0,0,0.8);
     text-align: center;
+}
+
+header.principal img {
+    max-width: 70px;
+    height: auto;
+    vertical-align: middle;
 }
 
 header h1 {
@@ -45,7 +50,6 @@ nav a:hover {
     color: #FF6691;
 }
 
-
 main {
     padding: 20px;
 }
@@ -62,7 +66,6 @@ main {
     text-transform: uppercase;
 }
 
-
 .contenedor-formulario {
     max-width: 600px;
     margin: auto;
@@ -73,7 +76,6 @@ main {
     border: 1px solid #333;
 }
 
-
 fieldset {
     border: 1px solid #333;
     border-radius: 5px;
@@ -81,7 +83,6 @@ fieldset {
     padding: 20px;
     background-color: #141414;
 }
-
 
 legend {
     color: #FF6691;
@@ -91,16 +92,13 @@ legend {
     font-size: 0.9rem;
 }
 
-
 label {
-    
     margin-bottom: 8px;
     margin-top: 15px;
     font-weight: bold;
     font-size: 0.9rem;
     color: #ddd;
 }
-
 
 input[type="text"],
 input[type="email"],
@@ -117,17 +115,12 @@ select {
     background-color: #2a2a2a;
     color: white;
     box-sizing: border-box; 
-    
 }
 
-
 input:focus, select:focus {
-   
     border-color: #FF6691;
     background-color: #333;
 }
-
-
 
 .grupo-radio, .grupo-checkbox {
     margin-top: 10px;
@@ -139,9 +132,7 @@ input:focus, select:focus {
     color: #ddd;
 }
 
-
 .radio-item, .check-item {
-    
     margin-right: 20px;
     font-weight: normal;
     cursor: pointer;
@@ -152,7 +143,6 @@ input[type="radio"], input[type="checkbox"] {
     transform: scale(1.2); 
     accent-color: #FF6691; 
 }
-
 
 .boton-enviar {
     width: 100%;
@@ -170,10 +160,9 @@ input[type="radio"], input[type="checkbox"] {
 }
 
 .boton-enviar:hover {
-    background-color: #FF6691;
+    background-color: #a1002e;
     transform: scale(1.02);
 }
-
 
 .fila-doble {
     display: flex;
@@ -191,35 +180,24 @@ footer {
     color: #666;
 }
 
-
 @media (max-width: 600px) {
-    
     body {
         padding-top: 160px; 
     }
-
-    
     .contenedor-formulario {
         width: 100%; 
         padding: 15px; 
         border: none; 
-       
     }
-    
-  
     .fila-doble {
         flex-direction: column;
         gap: 0;
     }
-
-   
     .radio-item, .check-item {
         display: block;
         margin-bottom: 10px;
         padding: 10px;
-        background-color: #1a1a1a;
+        background-color: #0A0A0A;
         border-radius: 4px;
     }
-    
-    
 }

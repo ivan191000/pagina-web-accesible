@@ -1,4 +1,3 @@
-
 * {
     box-sizing: border-box;
     margin: 0;
@@ -8,7 +7,7 @@
 body {
     font-family: 'Arial'; 
     line-height: 1.6;
-    background-color: #1a1a1a; 
+    background-color: #0A0A0A; 
     color: #f0f0f0;            
     padding-top: 170px; 
 }
@@ -47,7 +46,6 @@ a {
 a:hover {
     color: #FF6691; 
 }
-
 
 header.principal {
     background-color: #000000; 
@@ -100,7 +98,6 @@ nav a:hover, nav a.activo {
     text-decoration: none;
 }
 
-
 figure {
     background: #000000;
     padding: 8px;
@@ -115,13 +112,11 @@ figcaption {
     text-align: center;
 }
 
-
 .contenedor-galeria {
     max-width: 1200px;
     margin:  auto;
     padding: 20px;
 }
-
 
 .contenedor-galeria p {
     text-align: center;
@@ -147,13 +142,11 @@ figcaption {
     height: 100%; 
 }
 
-
 .galeria-grid figure:hover {
     transform: translateY(-5px); 
     border-color: #FF6691; 
     box-shadow: 0 10px 25px rgba(199, 0, 57, 0.2);
 }
-
 
 .galeria-grid img {
     width: 100%;
@@ -170,7 +163,6 @@ figcaption {
     letter-spacing: 1px;
     padding: 15px;
 }
-
 
 footer {
     background-color: #000000;
@@ -204,13 +196,10 @@ footer #redes img:hover {
     transform: scale(1.2);
 }
 
-
 @media (max-width: 900px) {
     body {
         padding-top: 200px; 
     }
-
-   
     .galeria-grid {
         grid-template-columns: 1fr;
         padding: 0 10px;
@@ -218,12 +207,8 @@ footer #redes img:hover {
 }
 
 .galeria-grid img {
-   
     transition: filter 0.5s ease; 
-   
-    
 }
-
 
 .filtro-bn {
     filter: grayscale(100%);
@@ -232,14 +217,12 @@ footer #redes img:hover {
     filter: grayscale(0%);
 }
 
-
 .filtro-sepia {
     filter: sepia(100%);
 }
 .filtro-sepia:hover {
     filter: sepia(0%);
 }
-
 
 .filtro-contraste {
     filter: contrast(150%) grayscale(100%);
@@ -248,14 +231,12 @@ footer #redes img:hover {
     filter: contrast(100%) grayscale(0%);
 }
 
-
 .filtro-oscuro {
     filter: brightness(40%); 
 }
 .filtro-oscuro:hover {
     filter: brightness(100%);
 }
-
 
 .filtro-saturado {
     filter: saturate(0%);

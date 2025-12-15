@@ -1,11 +1,10 @@
 body {
     font-family: 'Segoe UI';
-    background-color: #1a1a1a;
+    background-color: #0A0A0A;
     color: #f0f0f0;
     margin: 0;
     padding-top: 140px;
 }
-
 
 header.principal {
     background-color: #000000;
@@ -17,6 +16,12 @@ header.principal {
     padding: 15px 0;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.8);
     text-align: center;
+}
+
+header.principal img {
+    max-width: 70px;
+    height: auto;
+    vertical-align: middle;
 }
 
 header h1 {
@@ -45,7 +50,6 @@ nav a:hover {
     color: #FF6691;
 }
 
-
 .contenedor-principal {
     max-width: 1000px;
     margin: auto;
@@ -67,7 +71,6 @@ h3 {
     background: #333;
     margin: 40px 0;
 }
-
 
 .servicios-grid {
     list-style: none;
@@ -103,7 +106,6 @@ h3 {
     font-size: 0.95rem;
 }
 
-
 #grafico-seccion {
     text-align: center;
 }
@@ -112,7 +114,6 @@ h3 {
     max-width: 600px;
     margin: auto;
 }
-
 
 .grafico {
     width: 100%;
@@ -124,7 +125,6 @@ h3 {
     box-sizing: border-box;
 }
 
-
 .barra {
     cursor: pointer;
 }
@@ -133,14 +133,12 @@ h3 {
     fill: #FF6691;
 }
 
-
 text {
     fill: #ccc;
     font-family: sans-serif;
     font-size: 11px;
     font-weight: bold;
 }
-
 
 .tabla-precios {
     width: 100%;
@@ -159,7 +157,6 @@ text {
     border-bottom: 1px solid #333;
 }
 
-
 .tabla-precios thead th {
     background-color: #FF6691;
     color: white;
@@ -167,7 +164,6 @@ text {
     font-size: 0.9rem;
     letter-spacing: 1px;
 }
-
 
 .tabla-precios tbody tr:nth-child(even) {
     background-color: #1a1a1a;
@@ -177,12 +173,10 @@ text {
     background-color: #222;
 }
 
-
 .tabla-precios td.destacado {
     font-style: italic;
     color: #bbb;
 }
-
 
 .tabla-precios tfoot td {
     text-align: center;
@@ -193,7 +187,6 @@ text {
     padding: 10px;
 }
 
-
 footer {
     text-align: center;
     padding: 30px;
@@ -203,16 +196,13 @@ footer {
     background-color: #000;
 }
 
-
 @media (max-width: 600px) {
     header h1 {
         font-size: 1.5rem;
     }
-
     .tabla-precios th,
     .tabla-precios td {
         padding: 10px;
         font-size: 0.9rem;
     }
-
 }

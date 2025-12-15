@@ -1,4 +1,3 @@
-
 * {
     box-sizing: border-box;
     margin: 0;
@@ -6,12 +5,11 @@
 }
 
 body {
-    
     font-family: 'Arial'; 
     line-height: 1.6;
-    background-color: #1a1a1a; 
+    background-color: #0A0A0A; 
     color: #f0f0f0;            
-    padding-top: 170px; 
+    padding-top: 220px; 
 }
 
 img {
@@ -19,7 +17,6 @@ img {
     height: auto;
     border-radius: 4px;
 }
-
 
 h1, h2, h3, h4 {
     color: #f0f0f0;
@@ -34,6 +31,12 @@ h2 {
     margin-top: 1.5em;
 }
 
+/* AQUÍ ARREGLAMOS LOS ERRORES DE LAS IMÁGENES (4, 5, 8, 9, 10, 11) */
+h4 {
+    color: #FF6691;
+}
+
+/* AQUÍ ARREGLAMOS LOS ERRORES DE LAS IMÁGENES (1, 2, 3) */
 strong, b {
     color: #FF6691; 
     font-weight: 700;
@@ -48,7 +51,6 @@ a {
 a:hover {
     color: #FF6691; 
 }
-
 
 header.principal {
     background-color: #000000; 
@@ -101,8 +103,6 @@ nav a:hover {
     text-decoration: none;
 }
 
- 
-
 .contenedor-grid {
     display: grid;
     grid-template-columns: 1fr 350px; 
@@ -112,11 +112,10 @@ nav a:hover {
     padding: 20px;
 }
 
-
 #presentacion {
     grid-column: 1 / -1; 
     background-color: #0d0d0d; 
-    border: 1px solid #0A0A0A;
+    border: 1px solid #333;
     border-left: 5px solid #FF6691; 
     padding: 30px;
     text-align: center;
@@ -134,47 +133,46 @@ blockquote {
     color: #cccccc;
 }
 
-
 #contenido-principal article {
     background-color: #0d0d0d;
     padding: 25px;
     margin-bottom: 30px;
     border-radius: 8px;
-    border: 1px solid #0A0A0A;
+    border: 1px solid #333;
     box-shadow: 0 5px 15px rgba(0,0,0,0.5);
 }
 
-#contenido-principal h3, #contenido-principal h4 {
+#contenido-principal h3 {
     color: #FF6691; 
 }
 
-
 ul, ol { 
     margin-left: 20px; margin-bottom: 15px;
- }
+}
+
+/* AQUÍ ARREGLAMOS LOS ERRORES DE LAS IMÁGENES (6, 7, 12, 13) */
 dt { 
     color: #FF6691; font-weight: bold; margin-top: 10px;
- }
+}
+
 dd { 
     margin-left: 20px; margin-bottom: 10px; color: #ccc; 
 }
 
-
 code {
     display: block;
     background: #000000;
-    border: 1px solid #0A0A0A;
+    border: 1px solid #444;
     color: white; 
     padding: 15px;
     margin: 15px;
     font-family: monospace;
 }
 
-
 figure {
     background: #000000;
     padding: 8px;
-    border: 1px solid #0A0A0A;
+    border: 1px solid #444;
     margin: 20px;
 }
 
@@ -184,7 +182,6 @@ figcaption {
     padding: 10px;
     text-align: center;
 }
-
 
 #barra-lateral {
     background-color: #0d0d0d;
@@ -207,7 +204,6 @@ figcaption {
     padding-bottom: 4px;
 }
 
-
 .mapa {
     grid-column: 1 / -1; 
     margin-top: 20px;
@@ -221,7 +217,6 @@ figcaption {
     border: 2px solid #FF6691;
     width: 100%;
 }
-
 
 footer {
     background-color: #000000;
@@ -255,30 +250,22 @@ footer #redes img:hover {
     transform: scale(1.2);
 }
 
-
 @media (max-width: 900px) {
- 
     body {
         padding-top: 200px; 
     }
-
     .contenedor-grid {
-     
         grid-template-columns: 1fr;
         gap: 20px;
     }
-
-    
     #barra-lateral {
         border-top: 2px solid #FF6691;
         border-left: none;
     }
-
     .mapa iframe {
         height: 300px;
     }
 }
-
 
 @keyframes rodar {
     from {
@@ -289,11 +276,6 @@ footer #redes img:hover {
     }
 }
 
-
 header img {
-    
     animation: rodar 10s linear infinite;
-    
-    
-    border-radius: 50%; 
 }
