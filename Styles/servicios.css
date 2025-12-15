@@ -9,7 +9,7 @@ body {
 
 header.principal {
     background-color: #000000;
-    border-bottom: 3px solid #c70039;
+    border-bottom: 3px solid #FF6691;
     position: fixed;
     top: 0;
     width: 100%;
@@ -42,7 +42,7 @@ nav a {
 }
 
 nav a:hover {
-    color: #c70039;
+    color: #FF6691;
 }
 
 
@@ -54,7 +54,7 @@ nav a:hover {
 
 h2,
 h3 {
-    color: #c70039;
+    color: #FF6691;
     text-transform: uppercase;
     border-bottom: 1px solid #333;
     padding-bottom: 10px;
@@ -80,7 +80,7 @@ h3 {
 .servicios-grid li {
     background-color: #0d0d0d;
     padding: 20px;
-    border-left: 4px solid #c70039;
+    border-left: 4px solid #FF6691;
     border-radius: 4px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
     transition: transform 0.3s ease;
@@ -130,7 +130,7 @@ h3 {
 }
 
 .barra:hover {
-    fill: #c70039;
+    fill: #FF6691;
 }
 
 
@@ -161,7 +161,7 @@ text {
 
 
 .tabla-precios thead th {
-    background-color: #c70039;
+    background-color: #FF6691;
     color: white;
     text-transform: uppercase;
     font-size: 0.9rem;

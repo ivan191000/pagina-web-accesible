@@ -26,15 +26,15 @@ h1, h2, h3, h4 {
 
 h2 {
     font-size: 2em;
-    color: #c70039; 
-    border-bottom: 2px solid #c70039;
+    color: #FF6691; 
+    border-bottom: 2px solid #FF6691;
     padding-bottom: 10px;
     margin-top: 1.5em;
     text-align: center; 
 }
 
 strong, b {
-    color: #c70039; 
+    color: #FF6691; 
     font-weight: 700;
 }
 
@@ -45,7 +45,7 @@ a {
 }
 
 a:hover {
-    color: #c70039; 
+    color: #FF6691; 
 }
 
 
@@ -54,7 +54,7 @@ header.principal {
     color: #f0f0f0;
     padding: 15px 5%;
     text-align: center;
-    border-bottom: 3px solid #c70039; 
+    border-bottom: 3px solid #FF6691; 
     position: fixed;
     top: 0;
     left: 0;
@@ -69,7 +69,7 @@ header.principal {
 header.principal img {
     max-width: 70px;
     border-radius: 50%;
-    border: 2px solid #c70039;
+    border: 2px solid #FF6691;
     margin-bottom: 5px;
 }
 
@@ -94,9 +94,9 @@ nav a {
 }
 
 nav a:hover, nav a.activo {
-    background-color: #c70039; 
+    background-color: #FF6691; 
     color: #ffffff;
-    border-color: #c70039;
+    border-color: #FF6691;
     text-decoration: none;
 }
 
@@ -150,7 +150,7 @@ figcaption {
 
 .galeria-grid figure:hover {
     transform: translateY(-5px); 
-    border-color: #c70039; 
+    border-color: #FF6691; 
     box-shadow: 0 10px 25px rgba(199, 0, 57, 0.2);
 }
 
@@ -177,7 +177,7 @@ footer {
     color: #aaaaaa;
     padding: 40px 20px;
     text-align: center;
-    border-top: 3px solid #c70039;
+    border-top: 3px solid #FF6691;
     margin-top: 50px;
 }
 

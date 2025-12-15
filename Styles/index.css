@@ -28,14 +28,14 @@ h1, h2, h3, h4 {
 
 h2 {
     font-size: 2em;
-    color: #c70039; 
-    border-bottom: 2px solid #c70039;
+    color: #FF6691; 
+    border-bottom: 2px solid #FF6691;
     padding-bottom: 10px;
     margin-top: 1.5em;
 }
 
 strong, b {
-    color: #c70039; 
+    color: #FF6691; 
     font-weight: 700;
 }
 
@@ -46,7 +46,7 @@ a {
 }
 
 a:hover {
-    color: #c70039; 
+    color: #FF6691; 
 }
 
 
@@ -55,7 +55,7 @@ header.principal {
     color: #f0f0f0;
     padding: 15px 5%;
     text-align: center;
-    border-bottom: 3px solid #c70039; 
+    border-bottom: 3px solid #FF6691; 
     position: fixed;
     top: 0;
     left: 0;
@@ -70,7 +70,7 @@ header.principal {
 header.principal img {
     max-width: 70px;
     border-radius: 50%;
-    border: 2px solid #c70039;
+    border: 2px solid #FF6691;
     margin-bottom: 5px;
 }
 
@@ -95,9 +95,9 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #c70039; 
+    background-color: #FF6691; 
     color: #ffffff;
-    border-color: #c70039;
+    border-color: #FF6691;
     text-decoration: none;
 }
 
@@ -116,8 +116,8 @@ nav a:hover {
 #presentacion {
     grid-column: 1 / -1; 
     background-color: #0d0d0d; 
-    border: 1px solid #333;
-    border-left: 5px solid #c70039; 
+    border: 1px solid #0A0A0A;
+    border-left: 5px solid #FF6691; 
     padding: 30px;
     text-align: center;
     border-radius: 8px;
@@ -127,7 +127,7 @@ nav a:hover {
 blockquote {
     font-style: italic;
     background: #000000;
-    border-left: 4px solid #c70039;
+    border-left: 4px solid #FF6691;
     margin: 20px auto;
     padding: 15px;
     max-width: 800px;
@@ -140,12 +140,12 @@ blockquote {
     padding: 25px;
     margin-bottom: 30px;
     border-radius: 8px;
-    border: 1px solid #333;
+    border: 1px solid #0A0A0A;
     box-shadow: 0 5px 15px rgba(0,0,0,0.5);
 }
 
 #contenido-principal h3, #contenido-principal h4 {
-    color: #c70039; 
+    color: #FF6691; 
 }
 
 
@@ -153,7 +153,7 @@ ul, ol {
     margin-left: 20px; margin-bottom: 15px;
  }
 dt { 
-    color: #c70039; font-weight: bold; margin-top: 10px;
+    color: #FF6691; font-weight: bold; margin-top: 10px;
  }
 dd { 
     margin-left: 20px; margin-bottom: 10px; color: #ccc; 
@@ -163,7 +163,7 @@ dd {
 code {
     display: block;
     background: #000000;
-    border: 1px solid #444;
+    border: 1px solid #0A0A0A;
     color: white; 
     padding: 15px;
     margin: 15px;
@@ -174,7 +174,7 @@ code {
 figure {
     background: #000000;
     padding: 8px;
-    border: 1px solid #444;
+    border: 1px solid #0A0A0A;
     margin: 20px;
 }
 
@@ -190,13 +190,13 @@ figcaption {
     background-color: #0d0d0d;
     padding: 20px;
     border-radius: 8px;
-    border-top: 3px solid #c70039; 
+    border-top: 3px solid #FF6691; 
     box-shadow: 0 5px 15px rgba(0,0,0,0.5);
 }
 
 #barra-lateral h3 {
     font-size: 1.2em;
-    color: #c70039;
+    color: #FF6691;
     border-bottom: 1px dashed #555;
     padding-bottom: 5px;
 }
@@ -218,7 +218,7 @@ figcaption {
 }
 
 .mapa iframe {
-    border: 2px solid #c70039;
+    border: 2px solid #FF6691;
     width: 100%;
 }
 
@@ -228,7 +228,7 @@ footer {
     color: #aaaaaa;
     padding: 40px 20px;
     text-align: center;
-    border-top: 3px solid #c70039;
+    border-top: 3px solid #FF6691;
     margin-top: 50px;
 }
 
@@ -270,7 +270,7 @@ footer #redes img:hover {
 
     
     #barra-lateral {
-        border-top: 2px solid #c70039;
+        border-top: 2px solid #FF6691;
         border-left: none;
     }
 
