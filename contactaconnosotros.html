@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - InkSoul Tattoo Studio</title>
+    <link rel="stylesheet" href="Styles/contacto.css">
+</head>
+<body>
+
+    <header class="principal">
+        <div class="header-content">
+            <h1>InkSoul Tattoo Studio</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="galeria.html">Galería</a></li>
+                    <li><a href="servicios.html">Servicios</a></li>
+                    <li><a href="nosotros.html">Sobre Nosotros</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="titulo-pagina">
+            <h2>Agenda tu Cita</h2>
+            <p>Rellena este formulario y nos pondremos en contacto contigo para tatuarte.</p>
+        </div>
+
+        <div class="contenedor-formulario">
+            <form action="#" method="post">
+
+                <fieldset>
+                    <legend>Datos Personales</legend>
+
+                    <label for="nombre">Nombre Completo:</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="nombre:">
+
+                    <label for="email">Correo Electrónico:</label>
+                    <input type="email" id="email" name="email" placeholder="correo:">
+
+                    <label for="telefono">Teléfono:</label>
+                    <input type="tel" id="telefono" name="telefono" placeholder="123-456-7890">
+
+                    <label for="edad">Edad:</label>
+                    <input type="number" id="edad"placeholder="Debes ser mayor de 18">
+
+                    <div class="grupo-radio">
+                        <p class="label-falso">Género:</p>
+                        <label class="radio-item"><input type="radio" name="genero" value="masculino"> Masculino</label>
+                        <label class="radio-item"><input type="radio" name="genero" value="femenino"> Femenino</label>
+                        <label class="radio-item"><input type="radio" name="genero" value="otro"> Otro</label>
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Intereses (Temática del tatuaje)</legend>
+                    <div class="grupo-checkbox">
+                        <label class="check-item"><input type="checkbox" name="intereses" value="deporte"> Deporte</label>
+                        <label class="check-item"><input type="checkbox" name="intereses" value="musica"> Música</label>
+                        <label class="check-item"><input type="checkbox" name="intereses" value="lectura"> Lectura</label>
+                        <label class="check-item"><input type="checkbox" name="intereses" value="tecnologia"> Tecnología</label>
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Estudios (Opcional)</legend>
+                    <label for="estudios">Nivel de estudios:</label>
+                    <select id="estudios" name="estudios">
+                        <optgroup label="Primaria y Secundaria">
+                            <option value="primaria">Primaria</option>
+                            <option value="secundaria">Secundaria</option>
+                        </optgroup>
+                        <optgroup label="Educación Superior">
+                            <option value="universidad">Universidad</option>
+                            <option value="postgrado">Postgrado</option>
+                        </optgroup>
+                    </select>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Disponibilidad</legend>
+                    <div class="fila-doble">
+                        <div class="columna">
+                            <label for="fecha">Fecha preferida:</label>
+                            <input type="date" id="fecha" name="fecha">
+                        </div>
+                        <div class="columna">
+                            <label for="hora">Hora preferida:</label>
+                            <input type="time" id="hora" name="hora">
+                        </div>
+                    </div>
+                </fieldset>
+
+                <button type="submit" class="boton-enviar">ENVIAR SOLICITUD</button>
+
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 InkSoul Tattoo Studio. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
