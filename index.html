@@ -7,17 +7,17 @@
     <link rel="stylesheet" href="Styles/index.css">
 </head>
 <body>
-   
+    
     <header class="principal">
-        <img src="imagenes/tatoo demonio.png" width="200px" alt="logo">
+        <img src="imagenes/tatoo demonio.png" width="200" alt="Logotipo de InkSoul Tattoo Studio">
         <h1>InkSoul Tattoo Studio</h1>
         
-        <nav>
+        <nav aria-label="Menú principal">
             <ul>
                 <li><a href="#contacto">Contacto</a></li>
-                <li><a href="galeria.html" target="_blank">Galería</a></li>
-                <li><a href="servicios.html" target="_blank">Servicios</a></li>
-                <li><a href="nosotros.html" target="_blank">Sobre Nosotros</a></li>
+                <li><a href="galeria.html" target="_blank" aria-label="Galería (se abre en una nueva pestaña)">Galería</a></li>
+                <li><a href="servicios.html" target="_blank" aria-label="Servicios (se abre en una nueva pestaña)">Servicios</a></li>
+                <li><a href="nosotros.html" target="_blank" aria-label="Sobre Nosotros (se abre en una nueva pestaña)">Sobre Nosotros</a></li>
                 <li><a href="contactaconnosotros.html">Contacta con nosotros</a></li>
             </ul>
         </nav>
@@ -25,8 +25,8 @@
 
     <main class="contenedor-grid">
 
-        <section id="presentacion">
-            <h2>Conoce InkSoul Tattoo</h2>
+        <section id="presentacion" aria-labelledby="titulo-presentacion">
+            <h2 id="titulo-presentacion">Conoce InkSoul Tattoo</h2>
 
             <p>
                 En <strong>InkSoul Tattoo</strong> creemos que cada tatuaje cuenta una historia única. Nuestro objetivo es ofrecerte una experiencia 
@@ -89,14 +89,16 @@
             </dl>
 
             <p>Cómo documentamos un diseño:</p>
-            <code>Diseño: Flor minimalista
-        Nombre: "Flor del Lienzo"
-        Tamaño: 8cm x 5cm
-        Notas: Sombras suaves, tinta negra</code>
+            <pre>
+Diseño: Flor minimalista
+Nombre: "Flor del Lienzo"
+Tamaño: 8cm x 5cm
+Notas: Sombras suaves, tinta negra
+            </pre>
 
             <figure>
-              <img src="imagenes/lobo.png" alt="Ejemplo de tatuaje" width="250" height="250">
-              <figcaption>Tattoo lobo estilo geometrico - Ejemplo de diseño realizado en InkSoul Tattoo.</figcaption>
+              <img src="imagenes/lobo.png" alt="Tatuaje de un lobo estilo geométrico" width="250" height="250">
+              <figcaption>Tattoo lobo estilo geométrico - Ejemplo de diseño realizado en InkSoul Tattoo.</figcaption>
             </figure>
 
             <footer>
@@ -160,12 +162,12 @@
 
         </section>
 
-        <aside id="barra-lateral">
+        <aside id="barra-lateral" aria-label="Información adicional">
             <h3>Enlaces de interés</h3>
             <ul>
-                <li><a href="https://www.toolify.ai/es/ai-news-es/diseos-de-tatuajes-inspiradores-ideas-creativas-y-significados-profundos-3472057" target="_blank">Tatuajes inspiradores</a></li>
-                <li><a href="https://es.pinterest.com/cristtinaa08/tatuajes/" target="_blank">Ideas y estilos de tatuaje</a></li>
-                <li><a href="nosotros.html" target="_blank">Conoce nuestro equipo</a></li>
+                <li><a href="https://www.toolify.ai/es/ai-news-es/diseos-de-tatuajes-inspiradores-ideas-creativas-y-significados-profundos-3472057" target="_blank" aria-label="Tatuajes inspiradores (se abre en nueva pestaña)">Tatuajes inspiradores</a></li>
+                <li><a href="https://es.pinterest.com/cristtinaa08/tatuajes/" target="_blank" aria-label="Ideas y estilos de tatuaje (se abre en nueva pestaña)">Ideas y estilos de tatuaje</a></li>
+                <li><a href="nosotros.html" target="_blank" aria-label="Conoce nuestro equipo (se abre en nueva pestaña)">Conoce nuestro equipo</a></li>
             </ul>
 
             <h3>Información complementaria</h3>
@@ -174,7 +176,7 @@
             </p>
             <section id="video">
                 <h4>Vídeo destacado</h4>
-                <iframe width="280" height="158" src="https://www.youtube.com/embed/gQ8958HFkpY" title="Video de interés InkSoul Tattoo" allowfullscreen>
+                <iframe width="280" height="158" src="https://www.youtube.com/embed/gQ8958HFkpY" title="Video de interés InkSoul Tattoo" allowfullscreen style="border:0;">
                 </iframe>
             </section>
 
@@ -193,9 +195,10 @@
             </p>
         </aside>
 
-        <section class="mapa">
+        <section class="mapa" aria-label="Ubicación">
             <h3>Ubicacion InkSoul</h3>
             <iframe 
+                title="Mapa de ubicación de InkSoul Tattoo"
                 width="600" 
                 height="450" 
                 style="border:0" 
@@ -205,21 +208,23 @@
             </iframe>
         </section>
 
-    </main> <footer>
+    </main> 
+    
+    <footer>
         <div id="contacto">
             <p>Contacto:</p>
             <ul>
-                <li>Teléfono:+34 1234566443</li>
-                <li>Correo:InkSoul@gmail.com</li>
+                <li>Teléfono:<a href="tel:+341234566443">+34 1234566443</a></li>
+                <li>Correo:<a href="mailto:InkSoul@gmail.com">InkSoul@gmail.com</a></li>
             </ul>
         </div>
 
         <div id="redes">
             <p>Síguenos en redes sociales: Instagram | Facebook | TikTok</p>
             <ul>
-                <li><a href="#instagram"><img src="imagenes/insta.png" alt="instagram" width="300px"></a></li>
-                <li><a href="#x"><img src="imagenes/x.webp" alt="x" width="200px"></a></li>
-                <li><a href="#Tiktok"><img src="imagenes/tiktok.webp" alt="tiktok" width="200px"></a></li>
+                <li><a href="#instagram"><img src="imagenes/insta.png" alt="Ir a Instagram" width="300"></a></li>
+                <li><a href="#x"><img src="imagenes/x.webp" alt="Ir a X (Twitter)" width="200"></a></li>
+                <li><a href="#Tiktok"><img src="imagenes/tiktok.webp" alt="Ir a TikTok" width="200"></a></li>
             </ul>
         </div>
 
